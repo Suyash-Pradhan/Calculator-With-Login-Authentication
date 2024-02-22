@@ -16,8 +16,8 @@ This project is a web-based calculator with login functionality, built using HTM
 
 ## Quick Start
 
-1. **Clone the repository:** `git clone https://github.com/yourusername/yourprojectname.git`
+1. **Clone the repository:** 
 2. **Install dependencies:** `npm install`
-3. **Run the server:** `node app.js`
+3. **Run the server:** `npm start`
 4. **Visit:** `http://localhost:5000` to use the calculator.
 
