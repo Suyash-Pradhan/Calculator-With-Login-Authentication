@@ -14,4 +14,10 @@ This project is a web-based calculator with login functionality, built using HTM
 - **Backend:** Express.js, Node.js
 - **Database:** MongoDB for user authentication data.
 
+## Quick Start
+
+1. **Clone the repository:** `git clone https://github.com/yourusername/yourprojectname.git`
+2. **Install dependencies:** `npm install`
+3. **Run the server:** `node app.js`
+4. **Visit:** `http://localhost:5000` to use the calculator.
 
