@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<!-- signup -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <form action="/signup" method="post">
+            <h2>Registration</h2>
+            <div class="input-field">
+                <input type="text" name="fname" required autocomplete="off">
+                <label>First Name</label>
+            </div>
+            <div class="input-field">
+                <input type="text" name="lname" required autocomplete="off">
+                <label>Last Name</label>
+            </div>
+            <div class="input-field">
+                <input type="email" name="email" required autocomplete="off">
+                <label>Enter your email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" required autocomplete="off">
+                <label>Enter your password</label>
+            </div>
+            
+            <button type="submit">Register</button>
+            <div class="register">
+                <p>Already registered login instead? <a href="/login">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
